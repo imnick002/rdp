@@ -114,7 +114,7 @@ except NameError as e:
     
     #@title **SSH**
 
-! pip install colab_ssh --upgrade &> /dev/null
+ pip install colab_ssh --upgrade &> /dev/null
 
 #@markdown Choose a method (Agro Recommended)
 ssh_method = "Ngrok" #@param ["Agro", "Ngrok"]
